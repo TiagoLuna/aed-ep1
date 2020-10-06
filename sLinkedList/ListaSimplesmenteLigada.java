@@ -41,8 +41,10 @@ public class ListaSimplesmenteLigada {
 
   public String toString(){
     String s = "";
-    Node n = head; 
-    if(n != null) {s += n.getElement();}
+    for(Node n = head; n != null; n = n.getNext()){
+      s += n.getElement();
+      if(n != tail){ s += "\n"; }
+    }
     return s + "";
   }
 
