@@ -1,5 +1,10 @@
 package ep1.sLinkedList;
 
+/**Fonte: aulas de AED 1 - EACH USP - Professor Marcio Moretto
+ * Link: https://github.com/marciomr/AED1/blob/master/Capitulo%203.2/SLinkedList.java
+ * Obs.: com alterações apenas no método toString()
+ */
+
 public class ListaSimplesmenteLigada {
   protected Node head, tail;
   protected long size;

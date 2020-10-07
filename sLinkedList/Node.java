@@ -1,5 +1,10 @@
 package ep1.sLinkedList;
 
+/**Fonte: aulas de AED 1 - EACH USP - Professor Marcio Moretto
+ * Link: https://github.com/marciomr/AED1/blob/master/Capitulo%203.2/Node.java
+ * Obs.: sem alterações na estrutura
+ */
+
 public class Node {
     private String element;
     private Node next;
