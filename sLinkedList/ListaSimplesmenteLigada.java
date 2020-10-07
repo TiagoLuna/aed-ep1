@@ -1,7 +1,7 @@
 package ep1.sLinkedList;
 
 public class ListaSimplesmenteLigada {
-    protected Node head, tail;
+  protected Node head, tail;
   protected long size;
 
   public ListaSimplesmenteLigada(){
@@ -46,20 +46,5 @@ public class ListaSimplesmenteLigada {
       if(n != tail){ s += "\n"; }
     }
     return s + "";
-  }
-
-  // remover o último é mais complicado porque não temos um ponteiro pro penúltimo
-
-  public static void main(String[] args) {
-    ListaSimplesmenteLigada list = new ListaSimplesmenteLigada();
-    list.addFirst(new Node("Último", null));
-    list.addFirst(new Node("Penúltimo", null));
-    list.addFirst(new Node("Primeiro", null));
-    System.out.println(list.toString());
-
-    list.removeFirst();
-    list.addFirst(new Node("Novo primeiro", null));
-    list.addLast(new Node("Novo último", null));
-    System.out.println(list.toString());
   }
 }
